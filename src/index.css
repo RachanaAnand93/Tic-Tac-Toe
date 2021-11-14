@@ -1,0 +1,52 @@
+.game-board{
+  display: flex;
+  flex-direction: row;
+  float:inline-start;
+  background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+  padding-bottom: 10px;
+  max-width: 600px;
+  max-height:max-content;
+  border-radius: 10px;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  color:rgb(155, 151, 151);
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  width: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+div{
+  display: block;
+  text-align: center;
+  margin: 0  auto;
+}
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+
+
