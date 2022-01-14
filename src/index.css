@@ -9,6 +9,7 @@
   border-radius: 10px;
   font: 14px "Century Gothic", Futura, sans-serif;
   color:rgb(155, 151, 151);
+  
 }
 .board-row:after {
   clear: both;
